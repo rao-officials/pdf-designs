@@ -1,0 +1,322 @@
+// playground requires you to assign document definition to a variable called dd
+
+var dd = {
+	content: [
+	    
+	   	{
+		
+			table: {
+				widths: ['50%', '50%'],
+				body: [
+					
+					
+					[
+					    
+				    {qr: 'text in QR',fit:70,border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'INLAND EMPIRE HEALTH PLAN',border:[0,0,0,0],},    
+			        
+			        ],
+					
+					
+						
+					[
+					    
+				    {text:'HEALTH INSURANCE CLAIM FILE',color:'red',bold:'true',fontSize:14,border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'IEHP', margin:[0,-50,0,0],border:[0,0,0,0]},    
+			        
+			        ],
+			        
+			        
+			        
+			        		
+					[
+					    
+				    {text:'APPROVED BY NATIONAL UNOFROM CLAIM COMMETTE',color:'red',fontSize:'10',border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'PO BOX 4349', fillColor:'',margin:[0,-50,0,0],border:[0,0,0,0]},    
+			        
+			        ],
+			        
+			        
+			          		
+					[
+					    
+				    {text:'',border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'RANCHO CUCAMONGA CA 917294349', margin:[0,-60,0,0],border:[0,0,0,0]},    
+			        
+			        ],
+					
+					
+				]
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+			{
+		
+			table: {
+				widths: ['33.3%', '33.3%','33.3%'],
+				body: [
+					
+						[
+					    
+				   
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'2 Patient Name (Last Name , First Name,),',border:[1,1,1,0],fontSize:8,color:'red'},    
+					{text:'3 Patient Birth Date \t\t\t\t\t\t\t\tSex',border:[1,1,1,0],fontSize:8,color:'red'},    
+					{text:'4 Insurance name',border:[1,1,1,0],fontSize:8,color:'red'},    
+				  
+			        
+			        ],
+			        
+			       	[
+					    
+				   
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'JENKINS, ARTIE, B',border:[1,0,1,1],fontSize:10,color:''},    
+					{text:'10-22-2021 \t\t\t\t\t\t\t\t M',border:[1,0,1,1],fontSize:10,color:''},    
+				   	{text:'JENKINS, ARTIE, B',border:[1,0,1,1],fontSize:10,color:''}, 
+				  
+			        
+			        ],
+					
+					
+					
+					
+								
+					
+					[
+					    
+				   
+			 
+					{text:'2 Patient Address no,street',border:[1,1,1,0],fontSize:8,color:'red'},    
+					{text:'3 Patient relationship to insured',border:[1,1,1,0],fontSize:8,color:'red'},    
+					{text:'4 Insured Address (No, Street)',border:[1,1,1,0],fontSize:8,color:'red'},    
+				  
+			        
+			        ],
+			        [
+					    
+				   
+			   
+					{text:'57234 HIGHWAY 127 SPC 76',border:[1,0,1,1],fontSize:10,color:''},    
+					 {
+					        table: {
+								    
+								    width:['*','*','*','*'],
+								    
+								    
+								  
+								    
+									body: [
+										[
+										    { text: "Self\t\uf046 ",color:'red',fontSize:8, style: 'fontawesome',border:[0,0,0,0]},
+										    { text: "Spouce\t\uf046 ",color:'red',fontSize:8, style: 'fontawesome',border:[0]},
+                                        
+										    { text: "Child\t\uf046 ",fontSize:8, color:'red',style: 'fontawesome',border:[0]},
+										    { text: "Other\t\uf046 ",fontSize:8, color:'red',style: 'fontawesome',border:[0]},
+										  
+										 ],
+									
+									]
+								},
+								layout: 'noBorders',	
+								
+					    },
+			   
+				   	{text:'PO BOX 474',border:[1,0,1,1],fontSize:10,color:''}, 
+				  
+			        
+			        ],
+					
+					
+					
+					
+		
+					
+					
+				
+			
+					
+					
+				]
+			}
+		},
+		
+		
+		
+// 		=======
+
+		{
+			style: '',
+			table: {
+				widths: [123, 30, 163, '*', 30],
+				body: [
+					[
+					    
+					{text:'City',color:'red',fontSize:'8', border:[1,0,0,0]},
+					{text:'State' , color:'red',fontSize:'8' , border:[1,0,0,0]},
+					
+					{text:'8 Reserved for NUCC USE' , color:'red',fontSize:'8',border:[1,0,0,0]},
+					
+					{text:'City',color:'red',fontSize:'8' ,border:[1,0,0,0]},
+					{text:'State' , color:'red',fontSize:'8' ,border:[1,0,1,0]},
+					    
+					],
+					
+					
+						[
+					    
+					{text:'BAKER',fontSize:'10' ,border:[1,0,0,1]},
+					{text:'CA' ,fontSize:'10' , border:[1,0,0,1]},
+					
+					{text:'' ,fontSize:'10' , border:[1,0,0,1]},
+					
+					{text:'BAKER',fontSize:'10' ,border:[1,0,0,1]},
+					{text:'CA' ,fontSize:'10' , border:[1,0,1,1]},
+					    
+					],
+					
+					
+					
+				]
+			}
+		},
+
+// 		=======
+		
+		
+		
+		
+		
+		
+// 		+++++++++++++++++++++=
+	{
+			style: '',
+			table: {
+				widths: [76, 77, 163,76, 77],
+				
+				body: [
+					[
+					    
+					{text:'Zip Code',color:'red',fontSize:'8', border:[1,0,0,0]},
+					{text:'Telephone' , color:'red',fontSize:'8' , border:[1,0,0,0]},
+					
+					{text:'' , color:'red',fontSize:'8',border:[1,0,0,0]},
+					
+					{text:'Zip Code',color:'red',fontSize:'8' ,border:[1,0,0,0]},
+					{text:'Telephone' , color:'red',fontSize:'8' ,border:[1,0,1,0]},
+					    
+					],
+					
+					
+						[
+					    
+					{text:'92309',fontSize:'10' ,border:[1,0,0,1]},
+					{text:'000 0000' ,fontSize:'10' , border:[1,0,0,1]},
+					
+					{text:'' , color:'red',fontSize:'10' , border:[1,0,0,1]},
+					
+					{text:'92309',fontSize:'10' ,border:[1,0,0,1]},
+					{text:'000 0000' ,fontSize:'10' , border:[1,0,1,1]},
+					    
+					],
+					
+				]
+			}
+		},
+// 		+++++++++++++++++++++=
+		
+		
+		
+		
+		
+		
+		
+// 		____-----_____-----____
+
+
+	{
+			style: '',
+			table: {
+				widths: [162, 163,162],
+				// 	layout: 'noBorders',
+				
+				body: [
+				    
+				    
+					[
+					{text:'9. Other Insured name',color:'red',fontSize:'8', border:[1,0,0,0]},
+					{text:'10. Is patient Condition related to' , color:'red',fontSize:'8' , border:[1,0,0,0]},
+					{text:'Insured Policy Group or Feca Number' , color:'red',fontSize:'8',border:[1,0,1,0]},
+					],
+					
+					
+					[
+					{text:'',fontSize:'10' ,border:[1,0,0,1]},
+					{text:'' ,fontSize:'10' , border:[1,0,0,0]},
+					{text:'IPA: JJJ 10000003',fontSize:'10' , border:[1,0 ,1,1]},
+			        ],
+			        
+			        
+			        
+			        
+			        	[
+					{text:'a. Other insured Policy or group number',color:'red',fontSize:'8', border:[1,0,0,0]},
+					{text:'a. Employement (Currrent or Previous)' , color:'red',fontSize:'8' , border:[1,0,0,0]},
+					{text:'Insured Policy Group or Feca Number' , color:'red',fontSize:'8',border:[1,0,1,0]},
+					],
+					
+					
+					[
+					{text:'',fontSize:'10' ,border:[1,0,0,1]},
+					
+					{text:
+					[
+				
+				
+				    { text: "Yes\uf046 \t ",fontSize:8, color:'red',style: 'fontawesome',border:[0] ,alignment:'center'},
+				    { text: "No\uf046 ",fontSize:8, color:'red',style: 'fontawesome',border:[0]},   
+					    
+					] ,fontSize:'10' , border:[1,0,0,1]},
+					
+					{text:'IPA: JJJ 10000003',fontSize:'10' , border:[1,0 ,1,1]},
+			        ],
+					
+				]
+			},
+			
+			
+			
+			
+		},
+
+// 		____-----_____-----____
+		
+		
+		
+	    ],
+	
+	
+	
+	
+	
+	
+	styles: {
+	
+		borderRemove:{
+		    border:[0,0,0,0]
+		}
+	},
+
+	
+}

@@ -1,0 +1,492 @@
+// playground requires you to assign document definition to a variable called dd
+
+var dd = {
+    
+	content: [
+
+{
+    
+    
+    
+				table: {
+					widths: [300, 450],
+					body: [
+        [
+                	     
+	   {text:'', border: [0],},
+	    {text:'MANAGED TRANSPORTATION ORGANIZATION NAME\nDrivers log',bold:true, fontSize:18,border:[0], margin:[0,20,2,30],alignment:'center'},
+     
+
+				
+		],
+	
+		
+		
+		
+		
+		
+					]
+				},
+				margin:[0, 0, 0, 0],
+		
+			
+},
+// first table end
+
+
+
+
+// second tableb start here
+
+
+
+{
+    
+    
+    
+				table: {
+					widths: [150,120,240,140,240,230],
+					body: [
+        [
+                	     
+	
+	    {text:'Sub contractor',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'Haseeb',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,0,1]},
+	    {text:'Drivers Full Name',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'Haseeb rao',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,0,1]},
+	    {text:'Begninig odometer Reading:',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'15.00',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,1,1]},
+     
+
+				
+		],
+		
+		        [
+                	     
+	
+	    {text:'Vehicle ID:',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,0,1]},
+	    {text:'Driver License No',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,0,1]},
+	    {text:'Ending Odometer Reading',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,1,1]},
+     
+
+				
+		],
+		
+		        [
+                	     
+	
+	    {text:'Vehicle Type:',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,1,1]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,0,0,0]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,0,0,0]},
+	    {text:'Total Daily Milage:',bold:true, fontSize:12, margin:[8,8,8,8],border:[1,1,0,1]},
+	    {text:'',bold:true, fontSize:12, margin:[8,8,8,8],border:[0,1,1,1]},
+     
+
+				
+		],
+		
+	
+		
+		
+		
+					]
+				},
+				margin:[0, 0, 0, 0],
+		
+			
+},
+
+
+// second table end here
+
+
+
+// text table
+{
+    
+    
+    
+				table: {
+					widths: [1165],
+					body: [
+        [
+                	     
+	   
+	 
+     
+
+				
+		],
+		
+					]
+				},
+				margin:[0, 0, 0, 0],
+		
+			
+},
+
+// text table end 
+	    
+
+
+
+
+// color table heading th
+
+
+{
+    
+    
+    
+				table: {
+					widths: [50,100,100,105,100,100,100,100,50,100,70,70,70],
+					body: [
+     
+		
+		       [
+                	     
+	
+	    {text:'Trip Leg:', style:'tableHeader'},
+	    {text:'Authorization Name', style:'tableHeader'},
+	    {text:'Appointment Name'},
+	    {text:'Client Full name'},
+	    {text:'Addendtent Full name'},
+	    {text:'Pickup Address'},
+	    {text:'Pick up time'},
+	    {text:'Destination address'},
+	    {text:'DO Time'},
+	    {text:'Signature'},
+	    {text:'Trip OutCome'},
+	    {text:'PAF\non File'},
+	    {text:'Total mailage\n per leg'},
+     
+
+				
+		],
+		
+		
+		
+		
+		
+			       [
+                	     
+	
+	    {text:'A',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	       {text:'',style:'tablerow'},
+	       
+	       
+	       
+	        {
+	            
+	            text:[
+	                {text:'Client\n',style:'tablerow'},
+	                {text:'Attendant',style:'tablerow'}
+	                ]
+	            
+	            
+	            
+	        },
+	        
+	       
+	       
+	       
+	       
+	       
+	       
+	            {text:'', fillColor:'',bold:true, fontSize:12, margin:[8,8,8,8]},
+	                {text:'', fillColor:'',bold:true, fontSize:12, margin:[8,8,8,8]},
+	                    {text:'', fillColor:'',bold:true, fontSize:12, margin:[8,8,8,8]},
+     
+
+				
+		],
+		
+				
+		[
+     {text:'B',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+     
+	],
+		
+		[
+       {text:'A',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	],
+		
+				
+		
+	[
+     {text:'B',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+     
+	],
+		
+				
+	[
+       {text:'A',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	],
+		
+				
+		
+	[
+     {text:'B',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+     
+	],
+				
+	[
+       {text:'A',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	    {text:'',style:'tablerow'},
+	],
+		
+				
+		
+	[
+     {text:'B',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+	    {text:'', style:'tablecolorrow'},
+	    {text:'',style:'tablecolorrow'},
+     
+	],
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+					]
+				},
+				margin:[0, 10, 0, 5],
+		
+			
+},
+
+
+
+
+
+// color table th end
+
+
+
+// mian table details
+
+ {text:'Attestation: I certify that the information contained in this record is true and that the services were rendered', colSpan:'8',fillColor:'',bold:true, fontSize:12, margin:[8,8,8,8]},
+
+{
+    
+    
+    
+    
+    
+				table: {
+					widths: [110,120,80,105,240,60,240,150],
+					body: [
+     
+		
+		
+			       [
+                	     
+	
+	    {text:'Driver Signature',fillColor:'',bold:true,border:[0], fontSize:12, margin:[8,8,8,8]},
+	    {text:'',fillColor:'',border:[0,0,0,1],bold:false, fontSize:12, margin:[8,8,8,8]},
+	    {text:'',fillColor:'',border:[0,0,0,1],bold:false, fontSize:12, margin:[8,8,8,8],},
+	    {text:'',fillColor:'',border:[0,0,0,1],bold:false, fontSize:12, margin:[8,8,8,8]},
+	    {text:'',fillColor:'',border:[0,0,0,0],bold:false, fontSize:12, margin:[8,8,8,8]},
+	    {text:'Date',fillColor:'',border:[0,0,0,0],bold:false, fontSize:12, margin:[8,8,8,8]},
+	    {text:'',fillColor:'',border:[0,0,0,1],bold:false, fontSize:12, margin:[8,8,8,8]},
+	    {text:'', fillColor:'',border:[0,0,0,0],bold:false, fontSize:12, margin:[8,8,8,8]},
+				
+		],
+		
+					]
+				},
+				margin:[0, 0, 0, 0],
+		
+			
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    
+], /*content end*/	
+
+ extend: 'pdfHtml5',
+            pageOrientation: 'porttrait',
+            pageMargins: [240, 30, 0, 0],
+            pageSize: 'a1',
+            
+            
+            
+	
+	  styles: {
+        tablerow: {
+            border:[0,0,0,1],
+            bold:false,
+            fontSize:12,
+            margin:[8,8,8,8],
+    
+            
+        },
+        
+        
+        tablecolorrow:{
+            fillColor:'#d3d3d3',
+            bold:true,
+            fontSize:12,
+            margin:[8,8,8,8]
+            
+        },
+        
+        tableHeader:{
+            fillColor:'#a8a8a8',
+            bold:true,
+            fontSize:12,
+            margin:[8,8,8,8]
+            
+        }
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+}/* main variable end */

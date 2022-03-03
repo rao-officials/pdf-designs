@@ -1,0 +1,91 @@
+// playground requires you to assign document definition to a variable called dd
+
+var dd = {
+    
+pageMargins: [ 20, 0, 20, 20 ],
+pageOrientation: 'landscape',
+            
+        	content: [
+//  first table start 
+
+
+   {text:'Sure Modes of Everyday Transportation LLC. Dispatch Sheet',color:'#800000',alignment:'center',bold:true, fontSize:14,border:[0], margin:[0,30,0,0]},
+   {text:'11/23/2021',alignment:'center', color:'#800000',fontSize:10,border:[0], bold:true, margin:[0,5,0,0]},
+   {text:'Sorted By: Client Class ',color:'#800000',alignment:'center', fontSize:10,border:[0],bold:true, margin:[0,5,0,0]},
+
+
+
+{
+    
+    
+    
+				table: {
+					widths: ['auto',50,50,50,100,50,50,150,50,50,50,50,50,50,50],
+					body: [
+     
+		
+		       [
+                	     
+	
+	    {text:'#',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Mode',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Time',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'2legs',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Client',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Residence',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Residence',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Address',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    
+	    {text:'Vehi#',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'PU#',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'A-PU',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'A-DO',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'-',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'DO',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    {text:'Misc',bold:true,alignment:'left', fontSize:8, margin:[8,8,8,0]},
+	    
+	    
+
+     
+
+				
+		],
+		
+		
+		
+		
+					]
+				},
+				margin:[0, 10, 0, 0],
+		
+			
+},
+
+
+
+
+
+
+
+
+
+
+
+// ---------------------------------
+
+
+
+
+
+	    
+], /*content end*/	
+
+
+
+
+
+
+	
+
+	
+}/* main variable end */
