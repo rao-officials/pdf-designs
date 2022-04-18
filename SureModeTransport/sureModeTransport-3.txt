@@ -1,0 +1,125 @@
+// playground requires you to assign document definition to a variable called dd
+
+var dd = {
+    
+    
+pageMargins: [ 20, 0, 20, 20 ],
+pageOrientation: 'portrait',
+pageSize: 'A2',
+
+
+            
+        	content: [
+
+
+
+   {text:'Sure Modes of Everyday Transportation LLC. Dispatch Sheet',color:'#800000',alignment:'center',bold:true, fontSize:30,border:[0], margin:[0,30,0,0]},
+   {text:'11/23/2021',alignment:'center', color:'#800000',fontSize:20,border:[0], bold:true, margin:[0,10,0,10]},
+   {text:'Sorted By: Client Class ',color:'#800000',alignment:'center', fontSize:20,border:[0],bold:true, margin:[0,0,0,0]},
+
+
+
+	
+
+
+
+
+{
+    
+    
+    
+				table: {
+					widths: ['auto',50,50,50,100,100,100,150,50,50,50,50,50,50,100],
+					body: [
+     
+		
+		       [
+                	     
+	
+	    {text:'#',style:'cellValues',bold:true,alignment:'left', border:[0,0,0,1],margin:[0,30,0,0]},
+	    {text:'Mode',bold:true,alignment:'left', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'Time',bold:true,alignment:'left',style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'',bold:true,alignment:'left',style:'cellValues', border:[0,0,0,1],margin:[0,30,0,0]},
+	    {text:'Client',bold:true,alignment:'left', style:'cellValues', border:[0,0,0,1],margin:[0,30,0,0]},
+	    {text:'',bold:true,alignment:'left',style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'',bold:true,alignment:'left', style:'cellValues', border:[0,0,0,1],margin:[0,30,0,0]},
+	    {text:'',bold:true,alignment:'left', style:'cellValues', border:[0,0,0,1],margin:[0,30,0,0]},
+	    
+	    {text:'Vehi#',bold:true,alignment:'center', style:'cellValues', border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'PU#',bold:true,alignment:'center', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'A-PU',bold:true,alignment:'center', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'A-DO',bold:true,alignment:'center', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'-',bold:true,alignment:'center', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'DO',bold:true,alignment:'center', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    {text:'Misc',bold:true,alignment:'center', style:'cellValues',border:[0,0,0,1], margin:[0,30,0,0]},
+	    
+	    
+
+     
+
+				
+		],
+		
+		
+		
+			       [
+                	     
+	
+	    {text:'#', alignment:'left', margin:[0,5,0,0], border:[0,0,0,1]},
+	    {text:'Livery',alignment:'left', margin:[0,5,0,0],border:[0,0,0,1]},
+	    {text:'09:30',alignment:'left', margin:[0,5,0,0],border:[0,0,0,1]},
+	    {text:'2legs',alignment:'left', margin:[0,5,0,0],border:[0,0,0,1]},
+	    {text:'Elliott Librenda',alignment:'left', margin:[0,5,0,0],border:[0,0,0,1]},
+	    {text:'Residence',alignment:'left', margin:[0,5,0,0],border:[0,0,0,1]},
+	    {text:'Residence',alignment:'left', style:'', margin:[0,5,0,0],border:[0,0,0,1]},
+	    {text:'754 Marsh street',alignment:'left', style:'', margin:[0,5,0,0],border:[0,0,0,1]},
+	    
+	    {text:'MET1',alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    {text:'09:30',alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    {text:'',alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    {text:'',alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    {text:'',alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    {text:'09:40',bold:true,alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    {text:'1-85045-A',alignment:'center', style:'', margin:[0,5,0,0],border:[1,1,1,1]},
+	    
+	    
+
+     
+
+				
+		],
+		
+		
+		
+		
+					]
+				},
+				margin:[0, 50, 0, 0],
+		
+			
+},
+
+
+
+
+
+
+	    
+],
+
+
+		styles: {
+		cellValues: {
+			fontSize: 16,
+			bold: true,
+		    border:[0,0,0,0],
+		},
+		
+		bigger: {
+			fontSize: 15,
+			italics: true
+		}
+	}
+
+	
+}
