@@ -1,0 +1,120 @@
+// playground requires you to assign document definition to a variable called dd
+
+var dd = {
+	content: [
+	    
+	   	{
+		
+			table: {
+				widths: ['50%', '50%'],
+				body: [
+					
+					
+					[
+					    
+				    {qr: 'text in QR',fit:70,border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'INLAND EMPIRE HEALTH PLAN',border:[0,0,0,0]},    
+			        
+			        ],
+					
+					
+						
+					[
+					    
+				    {text:'HEALTH INSURANCE CLAIM FILE',color:'red',bold:'true',fontSize:14,border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'IEHP', margin:[0,-50,0,0],border:[0,0,0,0]},    
+			        
+			        ],
+			        
+			        
+			        
+			        		
+					[
+					    
+				    {text:'APPROVED BY NATIONAL UNOFROM CLAIM COMMETTE',color:'red',fontSize:'10',border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'PO BOX 4349', fillColor:'',margin:[0,-50,0,0],border:[0,0,0,0]},    
+			        
+			        ],
+			        
+			        
+			          		
+					[
+					    
+				    {text:'',border:[0,0,0,0]},
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'RANCHO CUCAMONGA CA 917294349', margin:[0,-60,0,0],border:[0,0,0,0]},    
+			        
+			        ],
+					
+					
+				]
+			}
+		},
+		
+		
+		
+		
+		
+		
+		
+		
+			{
+		
+			table: {
+				widths: ['33.3%', '33.3%','33.3%'],
+				body: [
+					
+					
+					[
+					    
+				   
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'2 Patient Name (Last Name , First Name,),',border:[1,1,1,0],fontSize:8,color:'red'},    
+					{text:'Patient Birth Date  Sex',fontSize:8,color:'red'},    
+					{text:'Insurance name',fontSize:8,color:'red'},    
+				  
+			        
+			        ],
+			        
+			        
+			        	[
+					    
+				   
+				    // {text:'', border:[0,0,0,0]},    
+					{text:'JENKINS, ARTIE, B',border:[1,0,1,1],fontSize:12,color:''},    
+					{text:'Patient Birth Date  Sex',fontSize:8,color:'red'},    
+					{text:'Insurance name',fontSize:8,color:'red'},    
+				  
+			        
+			        ],
+					
+				
+			
+					
+					
+				]
+			}
+		},
+		
+		
+		
+		
+	    ],
+	
+	
+	
+	
+	
+	
+	styles: {
+	
+		borderRemove:{
+		    border:[0,0,0,0]
+		}
+	},
+
+	
+}
